@@ -1,0 +1,116 @@
+<!doctype html>  
+<meta charset="utf-8">
+<title>Dartことはじめ</title>
+<meta name="description" content="「Dartことはじめ」はGoogle Dart Hackathon 2012 Tokyo Japan(2012-05-12)のプログラミング言語Dart入門セッションの発表資料です。">
+<meta name="author" content="Usagi Ito <usagi@WonderRabbitProject.net>">
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+<link href='http://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="css/reset.css">
+<link rel="stylesheet" href="css/main.css">
+<link rel="stylesheet" href="css/print.css" type="text/css" media="print">
+<link rel="stylesheet" href="lib/zenburn.css">
+
+<div id="reveal">
+  <div class="state-background"></div>
+    <div class="slides">
+      <section>
+        <h1>Dartことはじめ</h1>
+        <h3 class="inverted">Google Dart Hackathon 2012 Tokyo, Japan</h3>
+        <p>
+          Note: この資料は2次元構成です。
+          <ul>
+            <li>次の§へ進む: →
+            <li>前の§へ戻る: ←
+            <li>現在の§を読み進む: ↓
+            <li>現在の§を読み戻る: ↑
+          </ul>
+        <script>
+          // Delicously hacky. Look away.
+          if( navigator.userAgent.match( /(iPhone|iPad|iPod|Android)/i ) ) document.write( '<p style="color: rgba(0,0,0,0.3); text-shadow: none;">('+'Tap to navigate'+')</p>' );
+        </script>
+      </section>
+      <section>
+        <h2>§0 About Speaker</h2>
+        <ul>
+          <li>Usagi Ito
+          <li>
+          Dartの日本語リファレンスサイト・ユーザーグループ<a>dartrefjp</a>コアメンバー
+        </ul>
+      </section>
+      <section>
+        <section>
+        </section>
+        <section>
+        </section>
+        <section>
+        </section>
+        <section>
+        </section>
+      </section>
+
+      <section>
+        <h2>Holistic Overview</h2>
+        <p>
+          Press <strong>ESC</strong> to enter the slide overview!
+      </section>
+
+      <section>
+        <h2>Pretty Code</h2>
+        <pre><code contenteditable>
+var supports3DTransforms =  document.body.style['webkitPerspective'] !== undefined || 
+  document.body.style['MozPerspective'] !== undefined ||
+  document.body.style['perspective'] !== undefined;
+
+function linkify( selector ) {
+  if( supports3DTransforms ) {
+    var nodes = document.querySelectorAll( selector );
+    for( var i = 0, len = nodes.length; i < len; i++ ) {
+      var node = nodes[i];
+      if( !node.className || !node.className.match( /roll/g ) ) {
+        node.className += ' roll';
+        node.innerHTML = '<span data-title="'+ node.text +'">' + node.innerHTML + '</span>';
+      }
+    };
+  }
+}
+
+linkify( 'a' );
+        </code></pre>
+        <p>Courtesy of <a href="http://softwaremaniacs.org/soft/highlight/en/description/">highlight.js</a>.</p>
+      </section>
+      <section>
+      <h1>THANK YOU.</h1>
+        <h3 class="inverted">BY Usagi Ito / Wonder Rabbit Project</h3>
+      </section>
+    </div>
+    <aside class="controls">
+      <a class="left" href="#">&#x25C4;</a>
+      <a class="right" href="#">&#x25BA;</a>
+      <a class="up" href="#">&#x25B2;</a>
+      <a class="down" href="#">&#x25BC;</a>
+    </aside>
+  <div class="progress"><span></span></div>
+</div>
+
+<script src="js/reveal.js"></script>
+<script src="lib/highlight.js"></script>
+<script src="lib/classList.js"></script>
+
+<script>
+  var query = {};
+  location.search.replace( /[A-Z0-9]+?=(\w*)/gi, function(a) {
+    query[ a.split( '=' ).shift() ] = a.split( '=' ).pop();
+  } );
+  Reveal.initialize({
+    controls: true,
+    progress: true,
+    history: true,
+    loop: false,
+    mouseWheel: true,
+    rollingLinks: true,
+    theme: query.theme || 'default', // default/neon
+    transition: query.transition || 'default' // default/cube/page/concave/linear(2d)
+  });
+  hljs.initHighlightingOnLoad();
+</script>
