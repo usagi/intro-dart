@@ -489,7 +489,7 @@ main() {
             <li>この資料からのリンクでもお馴染み！
           </ul>
           <p><a href="http://try.dartlang.org/"><img src="usr/images/ss_dartboard.png" style="max-height: 300px"></a>
-          <p style="font-size:50%">（※正しく"処理系"ではなくDart専用の<a href="http://www.ideone.com/">ideone.com</a>的なソレ）
+          <p style="font-size:50%">（※正しくは"処理系"ではなくDart専用の<a href="http://www.ideone.com/">ideone.com</a>的なソレ）
         </section>
       </section>
       
