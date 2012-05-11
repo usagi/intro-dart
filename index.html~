@@ -225,7 +225,7 @@
           <p><a class="image" href="#/5/1"><img src="usr/images/cursor_to_down.svg" style="background: transparent;border:none;box-shadow:none;"></a>
         </section>
         <section>
-          <h3>Dart言語仕様の特徴,/h3>
+          <h3>Dart言語仕様の特徴</h3>
           <ul>
 	    <li>C系の文法に近い<br><span style="font-size:50%;text-transform:none;">（C, C++, Java, C#, ECMAScript, …などの経験者だとすぐに書けるかも）</span>
       <li>プログラムの実行はエントリーポイントから<br><span style="font-size:50%;text-transform:none;">（main関数）</span>
@@ -437,7 +437,7 @@ main() {
         <section>
           <p><q>APIリファレンスの日本語って…</q>
           <p>⇣
-          <p><q><a href="https://sites.google.com/site/dartrefjp/language-and-library/apiref">dartrefjp/API リファレンス</a>で頑張ってるよ！</q>（協力者随時募集中！）
+          <p><q><a href="https://sites.google.com/site/dartrefjp/language-and-library/apiref">dartrefjp/API リファレンス</a>で頑張ってるよ！</q><br>（協力者随時募集中！）
           <p><a href="https://sites.google.com/site/dartrefjp/language-and-library/apiref"><img src="usr/images/ss_api_ja.png" style="max-height:300px"></a>
         </section>
         <section>
@@ -497,6 +497,30 @@ main() {
         <section>
           <h3>§3.2 Dartium</h3>
           <p><a class="image" href="#/8/1"><img src="usr/images/cursor_to_down.svg" style="background: transparent;border:none;box-shadow:none;"></a>
+        </section>
+        <section>
+          <h3>Dartium</h3>
+          <ul>
+            <li>HTMLの`&lt;script&gt;`タグで<br>`src=hoge.dart`できるブラウザー
+            <li>↓は<a href="https://code.google.com/p/dart/source/browse/trunk/dart/samples/hi/">こちら</a>のサンプルより
+          </ul>
+          <pre><code contenteditable>
+&lt;!-- Copyright (c) 2011, the Dart project authors.Please see the AUTHORS file
+ for details. All rights reserved. Use of this source code is governed by a
+ BSD-style license that can be found in the LICENSE file. --&gt;
+&lt;html&gt;
+&lt;head&gt;
+&lt;title&gt;Hi Dart&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+&lt;h2 id=&quot;status&quot;&gt;dart is not running&lt;/h2&gt;
+&lt;script type=&quot;application/dart&quot; src=&quot;hi.dart&quot;&gt;&lt;/script&gt;
+&lt;script src=&quot;http://dart.googlecode.com/svn/branches/bleeding_edge/dart/client/dart.js&quot;&gt;&lt;/script&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+          </code></pre>
+          <p style="font-size:50%">動作画像とぷち解説等は<a href="http://dart-ing.blogspot.jp/2012/03/dartium.html">Dart -ing/Dartium を使ってみる </a>など参考になります・ｗ・ｂ
+          <p style="font-size:50%">（後述の）<a href="#11">Dart Editor</a>を使うとDartiumで実行可能なHTML/DART/JSの雛形などもあり便利ですよ！
         </section>
       </section>
       
@@ -587,6 +611,33 @@ Hello, World!
         <section>
           <h3>§3.4 Dart Editor</h3>
           <p><a class="image" href="#/11/1"><img src="usr/images/cursor_to_down.svg" style="background: transparent;border:none;box-shadow:none;"></a>
+        </section>
+        <section>
+          <h3>Dart Editor</h3>
+          <ul>
+            <li>EclipseをベースにDartに特殊化したIDE！
+            <li>動作はEclipseより軽やか！
+            <li>コード補間とかできます！
+            <li>学習に便利なサンプルも同梱！
+            <li>（前述の）<a href="#9">Dartium</a>も同梱！
+            <li>（前述の）<a href="#10">Dart SDK</a>も同梱！
+          </ul>
+          <p><img src="usr/images/ss_dart-editor.png" style="max-height:300px">
+        </section>
+        <section>
+          <p>Dart Editor（の配布パッケージ）
+          <p>＝ IDE ＋ SDK ＋ Dartium ＋ Sample
+          <p style="margin-top:60px">これさえ手に入れれば開発環境準備完了！
+          <p>↓
+          <p><a href="http://www.dartlang.org/docs/editor/">Get it now!!(English)</a>
+        </section>
+        <section>
+          <p><q>日本語ないの…？</q>
+          <p>↓
+          <p>アリますよ！
+          <p>↓
+          <p><a href="http://www.dartlang.org/docs/editor/">dartrefjp/チュートリアル: Dart Editor</a>
+          <p style="font-size:50%;margin-top:40px">※MacOSXもWindowsもほぼ同じなので"for Linux"しか邦訳していない点はご容赦下さい・ｘ・；<br>ステップ２からのチュートリアルが肝心です！
         </section>
       </section>
       
