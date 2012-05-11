@@ -71,7 +71,7 @@
       <section>
         <section>
           <h2>About Speaker</h2>
-          <p><a class="image" href="#/1/1"><img src="usr/images/cursor_to_down.svg" style="background: transparent;border:none;box-shadow:none;"></a>
+          <p><a class="image" href="#/1/1"><img src="usr/images/cursor_to_down.png" style="background: transparent;border:none;box-shadow:none;"></a>
         </section>
         
         <section>
@@ -148,7 +148,7 @@
       <section>
         <section>
           <h2>§1 Dartの歴史と背景と現状</h2>
-          <p><a class="image" href="#/3/1"><img src="usr/images/cursor_to_down.svg" style="background: transparent;border:none;box-shadow:none;"></a>
+          <p><a class="image" href="#/3/1"><img src="usr/images/cursor_to_down.png" style="background: transparent;border:none;box-shadow:none;"></a>
         </section>
         <section>
           <h3>Dartの歴史</h3>
@@ -222,7 +222,7 @@
       <section>
         <section>
           <h3>§2.1 言語基礎</h3>
-          <p><a class="image" href="#/5/1"><img src="usr/images/cursor_to_down.svg" style="background: transparent;border:none;box-shadow:none;"></a>
+          <p><a class="image" href="#/5/1"><img src="usr/images/cursor_to_down.png" style="background: transparent;border:none;box-shadow:none;"></a>
         </section>
         <section>
           <h3>Dart言語仕様の特徴</h3>
@@ -413,14 +413,14 @@ main() {
       <section>
         <section>
           <h3>§2.2 API</h3>
-          <p><a class="image" href="#/6/1"><img src="usr/images/cursor_to_down.svg" style="background: transparent;border:none;box-shadow:none;"></a>
+          <p><a class="image" href="#/6/1"><img src="usr/images/cursor_to_down.png" style="background: transparent;border:none;box-shadow:none;"></a>
         </section>
         <section>
           <h3>API</h3>
           <p>dart:core (dart:coreimpl) / dart:isolate
           <p>html / io / json / uri / utf
           <p><a href="http://api.dartlang.org/"><img src="usr/images/ss_api.png" style="max-height:200px"></a>
-          <p style="font-size:50%">側: dom (deprecated) → html<a href="http://dart-ing.blogspot.jp/2012/05/dartdom.html">（※参考リンク）</a>
+          <p style="font-size:50%">註: dom (deprecated) → html<a href="http://dart-ing.blogspot.jp/2012/05/dartdom.html">（※参考リンク）</a>
         </section>
         <section>
           <p><q>ちょっと寂しい様な…？</q>
@@ -478,7 +478,7 @@ main() {
       <section>
         <section>
           <h3>§3.1 Dartboard</h3>
-          <p><a class="image" href="#/7/1"><img src="usr/images/cursor_to_down.svg" style="background: transparent;border:none;box-shadow:none;"></a>
+          <p><a class="image" href="#/7/1"><img src="usr/images/cursor_to_down.png" style="background: transparent;border:none;box-shadow:none;"></a>
         </section>
         <section>
           <h4><a href="http://try.dartlang.org/">http://try.dartlang.org/</a></h4>
@@ -496,7 +496,7 @@ main() {
       <section>
         <section>
           <h3>§3.2 Dartium</h3>
-          <p><a class="image" href="#/8/1"><img src="usr/images/cursor_to_down.svg" style="background: transparent;border:none;box-shadow:none;"></a>
+          <p><a class="image" href="#/8/1"><img src="usr/images/cursor_to_down.png" style="background: transparent;border:none;box-shadow:none;"></a>
         </section>
         <section>
           <h3>Dartium</h3>
@@ -527,7 +527,7 @@ main() {
       <section>
         <section>
           <h3>§3.3 Dart SDK</h3>
-          <p><a class="image" href="#/9/1"><img src="usr/images/cursor_to_down.svg" style="background: transparent;border:none;box-shadow:none;"></a>
+          <p><a class="image" href="#/9/1"><img src="usr/images/cursor_to_down.png" style="background: transparent;border:none;box-shadow:none;"></a>
         </section>
         <section>
           <h4><a href="http://www.dartlang.org/docs/getting-started/sdk/">Dart SDK</a></h4>
@@ -610,7 +610,7 @@ Hello, World!
       <section>
         <section>
           <h3>§3.4 Dart Editor</h3>
-          <p><a class="image" href="#/11/1"><img src="usr/images/cursor_to_down.svg" style="background: transparent;border:none;box-shadow:none;"></a>
+          <p><a class="image" href="#/11/1"><img src="usr/images/cursor_to_down.png" style="background: transparent;border:none;box-shadow:none;"></a>
         </section>
         <section>
           <h3>Dart Editor</h3>
@@ -654,7 +654,7 @@ Hello, World!
       <section>
         <section>
           <h2>§A.1 Tips; checked mode / production mode
-          <p><a class="image" href="#/13/1"><img src="usr/images/cursor_to_down.svg" style="background: transparent;border:none;box-shadow:none;"></a>
+          <p><a class="image" href="#/13/1"><img src="usr/images/cursor_to_down.png" style="background: transparent;border:none;box-shadow:none;"></a>
         </section>
         <section>
           <h3>checked mode / production mode</h3>
@@ -693,7 +693,7 @@ Hello, World!
       <section>
         <section>
           <h2>§A.2 Tips; Dartの関連情報源</h2>
-          <p><a class="image" href="#/13/1"><img src="usr/images/cursor_to_down.svg" style="background: transparent;border:none;box-shadow:none;"></a>
+          <p><a class="image" href="#/13/1"><img src="usr/images/cursor_to_down.png" style="background: transparent;border:none;box-shadow:none;"></a>
         </section>
         <section>
           <h3><a href="http://www.dartlang.org/">www.dartlang.org</a></h3>
@@ -772,7 +772,7 @@ Hello, World!
       <section>
         <section>
           <h2>§A.2 おまけ; n-body benchmark</h2>
-          <p><a class="image" href="#/14/1"><img src="usr/images/cursor_to_down.svg" style="background: transparent;border:none;box-shadow:none;"></a>
+          <p><a class="image" href="#/14/1"><img src="usr/images/cursor_to_down.png" style="background: transparent;border:none;box-shadow:none;"></a>
         </section>
         <section>
           <p><a href="http://shootout.alioth.debian.org/u64/benchmark.php?test=nbody&lang=all">Computer Language Benchmarks Game</a>互換の<a href="https://github.com/usagi/n-body_benchmark/blob/master/src/nbody.dart">n-bodyコードをDartで書いて</a>みました。
@@ -786,7 +786,7 @@ Hello, World!
       <section>
         <section>
           <h2>§A.2 おまけ; Dart with Vim</h2>
-          <p><a class="image" href="#/15/1"><img src="usr/images/cursor_to_down.svg" style="background: transparent;border:none;box-shadow:none;"></a>
+          <p><a class="image" href="#/15/1"><img src="usr/images/cursor_to_down.png" style="background: transparent;border:none;box-shadow:none;"></a>
         </section>
         <section>
           <h3>Dart with Vim</h3>
