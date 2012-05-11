@@ -53,7 +53,7 @@
       <section>
         <h1>Dartことはじめ</h1>
         <h3 class="inverted">Google Dart Hackathon 2012 Tokyo, Japan</h3>
-        <p><a href="https://usagi.github.com/intro-dart/">https://usagi.github.com/intro-dart/</a>
+        <p><a href="http://usagi.github.com/intro-dart/">http://usagi.github.com/intro-dart/</a>
         <p>
           Note: この資料は2次元構成です。
           <ul>
@@ -722,6 +722,13 @@ Hello, World!
         <section>
           <h2>§A.2 おまけ; n-body benchmark</h2>
           <p><a class="image" href="#/14/1"><img src="usr/images/cursor_to_down.svg" style="background: transparent;border:none;box-shadow:none;"></a>
+        </section>
+        <section>
+          <p><a href="http://shootout.alioth.debian.org/u64/benchmark.php?test=nbody&lang=all">Computer Language Benchmarks Game</a>互換の<a href="https://github.com/usagi/n-body_benchmark/blob/master/src/nbody.dart">n-bodyコードをDartで書いて</a>みました。
+          <p><a href="https://github.com/usagi/n-body_benchmark/blob/master/src/nbody.dart"><img src="usr/images/ss_nbody.png"></a>
+          <p>↓
+          <p style="font-size:50%">多体問題シミュレーションの様な計算量が必要な処理の<br>ベンチマーク結果が気になる方は結果記事(<a href="http://usagi.hatenablog.jp/entry/2012/03/18/231035">1</a>,<a href="http://usagi.hatenablog.jp/entry/2012/05/10/214258">2</a>)などどうぞ・ｘ・
+          <p style="font-size:50%">簡単なDartソースコードのサンプルとして覗いて見てもいいかも
         </section>
       </section>
       
